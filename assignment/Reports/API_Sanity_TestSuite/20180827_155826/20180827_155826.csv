@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API_Sanity_TestSuite,,,2018-08-27 15:58:31,2018-08-27 15:58:35,4.359s,FAILED
+,,,,,,
+Test Cases/API/SampleApplication/API_comments,,,2018-08-27 15:58:31,2018-08-27 15:58:33,1.590s,PASSED
+Start listener action : methodBeforeTestCase,,,2018-08-27 15:58:31,2018-08-27 15:58:31,0.026s,PASSED
+Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/comments)),,,2018-08-27 15:58:31,2018-08-27 15:58:32,0.757s,PASSED
+Statement - println(responseBodyContent),,Print the response body,2018-08-27 15:58:32,2018-08-27 15:58:32,0.026s,PASSED
+verifyResponseStatusCode,,,2018-08-27 15:58:32,2018-08-27 15:58:32,0.022s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-08-27 15:58:32,2018-08-27 15:58:33,0.511s,PASSED
+,,,,,,
+Test Cases/API/SampleApplication/API_delete_posts_1,,,2018-08-27 15:58:33,2018-08-27 15:58:33,0.248s,FAILED
+Start listener action : methodBeforeTestCase,,,2018-08-27 15:58:33,2018-08-27 15:58:33,0.022s,PASSED
+Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/delete_posts_1)),,,2018-08-27 15:58:33,2018-08-27 15:58:33,0.013s,FAILED
+Start listener action : sampleAfterTestCase,,,2018-08-27 15:58:33,2018-08-27 15:58:33,0.009s,PASSED
+,,,,,,
+Test Cases/API/SampleApplication/API_posts,,,2018-08-27 15:58:33,2018-08-27 15:58:33,0.374s,PASSED
+Start listener action : methodBeforeTestCase,,,2018-08-27 15:58:33,2018-08-27 15:58:33,0.011s,PASSED
+Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/get_posts)),,,2018-08-27 15:58:33,2018-08-27 15:58:33,0.171s,PASSED
+Statement - println(responseBodyContent),,Print the response body,2018-08-27 15:58:33,2018-08-27 15:58:33,0.001s,PASSED
+verifyResponseStatusCode,,,2018-08-27 15:58:33,2018-08-27 15:58:33,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-08-27 15:58:33,2018-08-27 15:58:33,0.003s,PASSED
+,,,,,,
+Test Cases/API/SampleApplication/API_posts_1,,,2018-08-27 15:58:33,2018-08-27 15:58:34,0.247s,PASSED
+Start listener action : methodBeforeTestCase,,,2018-08-27 15:58:33,2018-08-27 15:58:33,0.006s,PASSED
+Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/get_posts_1)),,,2018-08-27 15:58:34,2018-08-27 15:58:34,0.103s,PASSED
+Statement - println(responseBodyContent),,Print the response body,2018-08-27 15:58:34,2018-08-27 15:58:34,0.001s,PASSED
+verifyResponseStatusCode,,,2018-08-27 15:58:34,2018-08-27 15:58:34,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-08-27 15:58:34,2018-08-27 15:58:34,0.005s,PASSED
+,,,,,,
+Test Cases/API/SampleApplication/API_put_posts_1,,,2018-08-27 15:58:34,2018-08-27 15:58:34,0.753s,PASSED
+Start listener action : methodBeforeTestCase,,,2018-08-27 15:58:34,2018-08-27 15:58:34,0.015s,PASSED
+Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/put_posts_1)),,,2018-08-27 15:58:34,2018-08-27 15:58:34,0.580s,PASSED
+Statement - println(responseBodyContent),,Print the response body,2018-08-27 15:58:34,2018-08-27 15:58:34,0.001s,PASSED
+verifyResponseStatusCode,,,2018-08-27 15:58:34,2018-08-27 15:58:34,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-08-27 15:58:34,2018-08-27 15:58:34,0.004s,PASSED
+,,,,,,
+Test Cases/API/SampleApplication/API_todos,,,2018-08-27 15:58:34,2018-08-27 15:58:35,0.246s,PASSED
+Start listener action : methodBeforeTestCase,,,2018-08-27 15:58:34,2018-08-27 15:58:34,0.004s,PASSED
+Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/todos)),,,2018-08-27 15:58:35,2018-08-27 15:58:35,0.073s,PASSED
+Statement - println(responseBodyContent),,Print the response body,2018-08-27 15:58:35,2018-08-27 15:58:35,0.002s,PASSED
+verifyResponseStatusCode,,,2018-08-27 15:58:35,2018-08-27 15:58:35,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-08-27 15:58:35,2018-08-27 15:58:35,0.005s,PASSED
+,,,,,,
+Test Cases/API/SampleApplication/API_users,,,2018-08-27 15:58:35,2018-08-27 15:58:35,0.278s,PASSED
+Start listener action : methodBeforeTestCase,,,2018-08-27 15:58:35,2018-08-27 15:58:35,0.006s,PASSED
+Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/users)),,,2018-08-27 15:58:35,2018-08-27 15:58:35,0.062s,PASSED
+Statement - println(responseBodyContent),,Print the response body,2018-08-27 15:58:35,2018-08-27 15:58:35,0.001s,PASSED
+verifyResponseStatusCode,,,2018-08-27 15:58:35,2018-08-27 15:58:35,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-08-27 15:58:35,2018-08-27 15:58:35,0.009s,PASSED

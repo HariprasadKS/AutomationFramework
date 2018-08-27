@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>DEV API</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>DEV Login URL</description>
+      <initValue>'https://devhydro-digital.dovertech.co.in/'</initValue>
+      <name>app_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>API URL</description>
+      <initValue>'https://devhydro-digital.dovertech.co.in/'</initValue>
+      <name>rest_endpoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Admin Username</description>
+      <initValue>'binisha@doverhydrodev.onmicrosoft.com'</initValue>
+      <name>admin_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Admin Password</description>
+      <initValue>'Dover_123$'</initValue>
+      <name>admin_pwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>SSO Client ID</description>
+      <initValue>'bf339333-6924-484a-a243-f5f0c935896c'</initValue>
+      <name>sso_clientid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>SSO Client Secret</description>
+      <initValue>'U04JmKfW0cEEVf4zakO3kDIByfiAPmis2cS0i51jmWE='</initValue>
+      <name>sso_client_secret</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Azure SSO Url</description>
+      <initValue>'https://login.microsoftonline.com/doverhydro.onmicrosoft.com'</initValue>
+      <name>azure_sso_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Azure SSO Resource Url</description>
+      <initValue>'bf339333-6924-484a-a243-f5f0c935896c'</initValue>
+      <name>azure_sso_resource_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Elastic Search Url</description>
+      <initValue>'52.173.138.29'</initValue>
+      <name>elasticsearh_server</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Elastic Search Port</description>
+      <initValue>'9200'</initValue>
+      <name>elasticsearch_port</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Session token.</description>
+      <initValue>'${token}'</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Environment profile.</description>
+      <initValue>'DEV API'</initValue>
+      <name>environment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Account Id for verification</description>
+      <initValue>'83985b269a0b42e5bb7e34d2293b7ad8'</initValue>
+      <name>accountId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Account Name for verification.</description>
+      <initValue>'Account1'</initValue>
+      <name>accountName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>environment url difference.</description>
+      <initValue>'doverhydrodev'</initValue>
+      <name>url_env</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>grant type parameter.</description>
+      <initValue>'password'</initValue>
+      <name>grant_type</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Site ID </description>
+      <initValue>'d7363f3ecfba460192671c5345aee3ca'</initValue>
+      <name>siteId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Company Id.</description>
+      <initValue>'76dab3cd1e3a460f80880dd7e25cc4db'</initValue>
+      <name>companyId</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>The project to create tests, test data, test suites,  test suite collections for Hydro Application.</description>
+   <name>katalon-hydro-automation</name>
+   <tag></tag>
+   <UUID>22e73bd4-4fb8-4211-9ed8-64eaeeb2ce06</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
