@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'This is sample UI test case structure'
+ 
 'Verify is login page is loaded'
 CustomKeywords.'com.hydro.app.login.LoginPageKeyWords.isLoginPageLoaded'()
 

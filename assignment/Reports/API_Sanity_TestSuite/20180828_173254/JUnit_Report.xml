@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API_Sanity_TestSuite" time="4" tests="6" failures="1" errors="0">
+   <testsuite name="API_Sanity_TestSuite" tests="6" failures="1" errors="0" time="4" timestamp="2018-08-28 17:32:59" hostname="11020053 - H5CG8064R83.Dover-Global.net" id="Test Suites/API_Sanity_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\personal\\profile\\GitRepository\\assignment\\Reports\\API_Sanity_TestSuite\\20180828_173254"/>
+         <property name="logFiles" value="D:\\personal\\profile\\GitRepository\\assignment\\Reports\\API_Sanity_TestSuite\\20180828_173254\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="11020053 - H5CG8064R83.Dover-Global.net"/>
+         <property name="hostAddress" value="192.168.99.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+      </properties>
+      <testcase name="Test Cases/API/SampleApplication/API_comments" classname="Test Cases/API/SampleApplication/API_comments" status="PASSED">
+         <system-out><![CDATA[2018-08-28 17:33:00 - [TEST_CASE][PASSED] - Test Cases/API/SampleApplication/API_comments: Test Cases/API/SampleApplication/API_comments
+
+2018-08-28 17:33:00 - [TEST_STEP][PASSED] - Start listener action : methodBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:00 - [TEST_STEP][PASSED] - Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/comments)): Send request successfully
+
+2018-08-28 17:33:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-08-28 17:33:01 - [TEST_STEP][PASSED] - Statement - println(responseBodyContent): null
+
+2018-08-28 17:33:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-08-28 17:33:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-08-28 17:33:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.
+
+2018-08-28 17:33:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-28 17:33:02 - [MESSAGE][PASSED] - Browser is closed
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SampleApplication/API_delete_posts_1" classname="Test Cases/API/SampleApplication/API_delete_posts_1" status="FAILED">
+         <failure type="FAILED" message="Unable to send request (Root cause: java.lang.IllegalArgumentException: Request object is null)"/>
+         <system-out><![CDATA[2018-08-28 17:33:02 - [TEST_CASE][FAILED] - Test Cases/API/SampleApplication/API_delete_posts_1: Test Cases/API/SampleApplication/API_delete_posts_1 FAILED because (of) Unable to send request (Root cause: java.lang.IllegalArgumentException: Request object is null)
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Start listener action : methodBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:02 - [TEST_STEP][FAILED] - Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/delete_posts_1)): Unable to send request (Root cause: java.lang.IllegalArgumentException: Request object is null)
+
+2018-08-28 17:33:02 - [MESSAGE][WARNING] - Test object with id 'Object Repository/API/SampleApplication/delete_posts_1' does not exist
+
+2018-08-28 17:33:02 - [MESSAGE][FAILED] - Unable to send request (Root cause: java.lang.IllegalArgumentException: Request object is null)
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-28 17:33:02 - [MESSAGE][PASSED] - Browser is closed
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-08-28 17:33:02 - [TEST_CASE][FAILED] - Test Cases/API/SampleApplication/API_delete_posts_1: Test Cases/API/SampleApplication/API_delete_posts_1 FAILED because (of) Unable to send request (Root cause: java.lang.IllegalArgumentException: Request object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SampleApplication/API_posts" classname="Test Cases/API/SampleApplication/API_posts" status="PASSED">
+         <system-out><![CDATA[2018-08-28 17:33:02 - [TEST_CASE][PASSED] - Test Cases/API/SampleApplication/API_posts: Test Cases/API/SampleApplication/API_posts
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Start listener action : methodBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/get_posts)): Send request successfully
+
+2018-08-28 17:33:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(responseBodyContent): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-08-28 17:33:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-28 17:33:02 - [MESSAGE][PASSED] - Browser is closed
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SampleApplication/API_posts_1" classname="Test Cases/API/SampleApplication/API_posts_1" status="PASSED">
+         <system-out><![CDATA[2018-08-28 17:33:02 - [TEST_CASE][PASSED] - Test Cases/API/SampleApplication/API_posts_1: Test Cases/API/SampleApplication/API_posts_1
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Start listener action : methodBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/get_posts_1)): Send request successfully
+
+2018-08-28 17:33:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(responseBodyContent): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-08-28 17:33:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-28 17:33:02 - [MESSAGE][PASSED] - Browser is closed
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SampleApplication/API_put_posts_1" classname="Test Cases/API/SampleApplication/API_put_posts_1" status="PASSED">
+         <system-out><![CDATA[2018-08-28 17:33:02 - [TEST_CASE][PASSED] - Test Cases/API/SampleApplication/API_put_posts_1: Test Cases/API/SampleApplication/API_put_posts_1
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Start listener action : methodBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:02 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/put_posts_1)): Send request successfully
+
+2018-08-28 17:33:03 - [MESSAGE][PASSED] - Send request successfully
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(responseBodyContent): null
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-08-28 17:33:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-28 17:33:03 - [MESSAGE][PASSED] - Browser is closed
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SampleApplication/API_todos" classname="Test Cases/API/SampleApplication/API_todos" status="PASSED">
+         <system-out><![CDATA[2018-08-28 17:33:03 - [TEST_CASE][PASSED] - Test Cases/API/SampleApplication/API_todos: Test Cases/API/SampleApplication/API_todos
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Start listener action : methodBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/todos)): Send request successfully
+
+2018-08-28 17:33:03 - [MESSAGE][PASSED] - Send request successfully
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(responseBodyContent): null
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-08-28 17:33:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-28 17:33:03 - [MESSAGE][PASSED] - Browser is closed
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SampleApplication/API_users" classname="Test Cases/API/SampleApplication/API_users" status="PASSED">
+         <system-out><![CDATA[2018-08-28 17:33:03 - [TEST_CASE][PASSED] - Test Cases/API/SampleApplication/API_users: Test Cases/API/SampleApplication/API_users
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Start listener action : methodBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:03 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'TestListener.methodBeforeTestCase(...)' completed.
+
+2018-08-28 17:33:04 - [TEST_STEP][PASSED] - Statement - responsejson = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(API/SampleApplication/users)): Send request successfully
+
+2018-08-28 17:33:04 - [MESSAGE][PASSED] - Send request successfully
+
+2018-08-28 17:33:04 - [TEST_STEP][PASSED] - Statement - println(responseBodyContent): null
+
+2018-08-28 17:33:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-08-28 17:33:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-08-28 17:33:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.
+
+2018-08-28 17:33:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-28 17:33:04 - [MESSAGE][PASSED] - Browser is closed
+
+2018-08-28 17:33:04 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-08-28 17:33:04 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'TestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-28 17:32:59 - [TEST_SUITE][FAILED] - API_Sanity_TestSuite: Test Cases/API/SampleApplication/API_delete_posts_1 FAILED because (of) Unable to send request (Root cause: java.lang.IllegalArgumentException: Request object is null)]]></system-out>
+      <system-err><![CDATA[2018-08-28 17:32:59 - [TEST_SUITE][FAILED] - API_Sanity_TestSuite: Test Cases/API/SampleApplication/API_delete_posts_1 FAILED because (of) Unable to send request (Root cause: java.lang.IllegalArgumentException: Request object is null)]]></system-err>
+   </testsuite>
+</testsuites>

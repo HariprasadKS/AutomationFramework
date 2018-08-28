@@ -4,7 +4,7 @@
    <name>API_Sanity_TestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-27T15:58:26</lastRun>
+   <lastRun>2018-08-28T17:32:54</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

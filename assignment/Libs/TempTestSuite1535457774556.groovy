@@ -28,7 +28,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("D:\\personal\\profile\\assignment\\Reports\\API_Sanity_TestSuite\\20180827_155826\\execution.properties")
+RunConfiguration.setExecutionSettingFile("D:\\personal\\profile\\GitRepository\\assignment\\Reports\\API_Sanity_TestSuite\\20180828_173254\\execution.properties")
 
 TestCaseMain.beforeStart()
 
