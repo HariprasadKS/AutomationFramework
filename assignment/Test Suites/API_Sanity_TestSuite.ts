@@ -53,4 +53,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/API/SampleApplication/API_users</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7d3b6e32-020b-4399-88af-0431503da0bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/SampleApplication/API_badrequest</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
