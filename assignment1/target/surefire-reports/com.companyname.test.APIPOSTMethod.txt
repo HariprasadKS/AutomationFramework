@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.companyname.test.APIPOSTMethod
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.131 sec <<< FAILURE! - in com.companyname.test.APIPOSTMethod
+testPOSTMethod(com.companyname.test.APIPOSTMethod)  Time elapsed: 1.131 sec  <<< FAILURE!
+java.lang.AssertionError: Incorrect Response Code expected:<200> but was:<201>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at com.companyname.controller.RestValidator.expectCode(RestValidator.java:17)
+	at com.companyname.test.APIPOSTMethod.testPOSTMethod(APIPOSTMethod.java:19)
+
